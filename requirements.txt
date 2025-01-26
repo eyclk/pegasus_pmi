@@ -1,0 +1,14 @@
+absl-py
+mock
+numpy~=1.26.4
+rouge-score
+sacrebleu
+sentencepiece
+tensorflow-text==2.10.0rc0
+tensor2tensor==1.15.0
+tensorflow-datasets==2.1.0
+tensorflow-gpu==2.10.0
+
+setuptools~=75.1.0
+transformers~=4.46.1
+torch~=2.5.1
