@@ -146,7 +146,7 @@ def string_features_for_pretraining_parser(
 
     if parser_strategy not in [
         "random", "lead", "rouge", "greedy_rouge", "continuous_rouge", "hybrid",
-        "none", "dynamic_rouge"
+        "none", "dynamic_rouge", "pmi"  # *************************************************************   NEW   ******
     ]:
       raise ValueError("Invalid parser_strategy. Got %s." % parser_strategy)
 
